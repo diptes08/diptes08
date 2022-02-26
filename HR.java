@@ -3,17 +3,19 @@ package com.diptes.io;
 import java.util.List;
 
 public class HR extends Employee {
+	
+	
 	public List<Employee> empls;
-
 	public double calculateSalary(Integer id) {
 		double sal=0d;
+		
 		for(Employee e:empls) {
 			if(e.id==id) {
 				sal=e.Salary;
 			}
 		}
-		final float hikePercent = 10;
-		double newSal = sal + (sal * hikePercent) / 100;
+		final float hikePercentage = 10;
+		double newSal = sal + (sal * hikePercentage) / 100;
 		return newSal;
 	}
 
