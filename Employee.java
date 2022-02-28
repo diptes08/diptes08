@@ -11,10 +11,6 @@ public class Employee {
 		return name;
 	}
 	
-	public String addLead(String name) {
-		return name;
-	}
-	
 	public double Salary(double oSalary) {
 		
 		double salHikePer =7.5;
