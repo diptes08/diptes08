@@ -17,7 +17,7 @@ public class Employee {
 	
 	public double Salary(double oSalary) {
 		
-		double salHikePer =10;
+		double salHikePer =7.5;
 		double nSalary =((oSalary*7.5)/100)+(oSalary);
 		return nSalary;
 		
